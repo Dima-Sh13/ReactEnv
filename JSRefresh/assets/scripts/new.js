@@ -1,5 +1,12 @@
 'use strict';
 
-import { apiKey } from "./util";
+ import { apiKey, apikey2 } from "./util";
+
+
+import apiKey3 from "./utils.js";  //|| here we have a not named export so we must assign a name when importing it
+
+import * as apikeys from "./util.js"
 
 console.log(apiKey)
+
+console.log(apikeys.apiKey3);
