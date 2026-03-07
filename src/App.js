@@ -68,6 +68,8 @@ export default function App() {
           </button>
         </menu>
         <div id="tab-content">
+
+          
           <ul>
             {content[activeContentIndex].map((item) => (
               <li key={item}>{item}</li>
