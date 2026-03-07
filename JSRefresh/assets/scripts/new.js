@@ -27,5 +27,22 @@ console.log (user + mujercita);
 
 console.log(mujercita === laMasBella);
 
+// ARROW FUNCTIONS
+
+(user) => {
+    return user
+};
+
+// youcan omit the paranthesis in the arguments if your function only takes 1 argument. only with 1. with zero or 2+ you need parenthesis
+username12 => {};
+
+//If your function opnly contains a return you can omit the braces
+
+number => number *3   // ===  function number(number)  {return number * 3} 
+
+// if you want to return an object you have to put the object brackets inside the parenthesis
+
+number1 => ({age: number1})  // returns a js object
+
 
 
