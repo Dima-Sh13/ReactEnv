@@ -45,4 +45,18 @@ number => number *3   // ===  function number(number)  {return number * 3}
 number1 => ({age: number1})  // returns a js object
 
 
+// OBJECTS
+
+const marrige = {
+    H: "Dima",
+    M: 'Carolina',
+    saludo() {
+        console.log(this.H + this.M + "estan casados")
+    }
+};
+
+
+marrige.saludo();
+
+
 
