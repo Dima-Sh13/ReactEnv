@@ -19,4 +19,13 @@ console.log(userMessage);
 let user = 'Dima'
 
 
-let User2 = 'Carolina'
+const mujercita = 'Carolina'
+
+const laMasBella = 'Carolina'
+
+console.log (user + mujercita);
+
+console.log(mujercita === laMasBella);
+
+
+
