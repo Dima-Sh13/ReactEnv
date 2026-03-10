@@ -74,4 +74,35 @@ array.findIndex((item) => {
 // map
 
 
-hobbies.map((item) => item + 1);
+const hobbiesNew = hobbies.map((item) => item + 1);
+
+
+// ---------------------- Destructuring
+
+const userData = ["Dima", "Shalupnya"];
+
+let userName = userData[0];
+let userFamily = userData[1];
+
+// IS the same as 
+
+const [firstName, lastName] =  ["Dima", "Shalupnya"]; // de construye y nos crea las viarbles con
+
+
+//destructuring objects
+
+const userr = {
+    name: "dima",
+    family: "shalupnya"
+};
+
+let ussrName = userr.name;
+let family = userr.family;
+
+// is te same as 
+
+const {name, family1} = {
+    name: "dima",
+    family1: "shalupnya"
+
+}
