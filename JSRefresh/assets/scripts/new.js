@@ -139,3 +139,10 @@ The function would still be called like this:
     storeOrder({id: 5, currency: 'USD', amount: 15.99}); // one argument / value!
 
 */
+
+const poke = {
+    type: "water",
+    lvl: 45,
+    name: "Poliwag",
+    catch : 
+};
