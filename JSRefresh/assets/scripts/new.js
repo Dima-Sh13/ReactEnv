@@ -146,7 +146,11 @@ const poke = {
     name: "Poliwag",
     catch : 
 };
-setTimeout(function())
+setTimeout(handleTimeout,3000)
+
+
+
+
 
 
 
